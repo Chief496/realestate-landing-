@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: Poppins;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    padding: 10px 5%;
+    color: white;
+    flex-wrap: wrap;
+}
+.navcon{
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+    position: relative;
+    color: white;
+    
+}
+ .joel{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 1000px;
+    
+} 
+.pro{
+    color: #0A72AD;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin-left: 100px;
+}
+.we , .ad , .and{
+    margin-left: 110px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 64px;
+    line-height: 150%;
+    font-family: Poppins;
+    
+}
+.more{
+    margin-left: 110px;
+    color: #C4C4C4;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Poppins;
+    margin-top: 50px;
+    
+    
+}
+ button{
+    left: 119px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #0A72AD;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+} 
+.grp12{
+    position: relative;
+    left: 110px;
+    bottom: 900px;
+}
+.FG{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 45px;
+    left: 50px;
+
+}
+.fr{
+   z-index: 1; 
+   padding-left:100px ;
+   position: relative;
+   left: 60px;
+}
+.lgr{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.lg{
+    margin-top: 30px;
+}
+.subcon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.che{
+    color: #C4C4C4;
+    font-style: med;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+.our , .ex{
+    font-weight: 600;
+    font-style: bold;
+    color: #242527;
+    line-height: 100%;
+    font-size: 46px;
+    font-family: poppins;
+}
+
+.marks{
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative;
+    top: 80px; */
+}
+.icr{
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative;
+    top:80px ; */
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    color: #242527;
+}
+.icr2{
+    display: flex;
+    justify-content:space-evenly;
+    font-weight: 500;
+    font: 18px;
+    /*  position: relative;
+    top: 80px; */
+    color: #C4C4C4;
+}
+.thirdcon{
+    background-color: #F6F6F6CC;
+}
+.box{
+    width: 90px;
+    height: 9px;
+    background-color: #60BBEE;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.what{
+font-weight: 600;
+font-size: 46px;
+}
+.make{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.out{
+    font-size: 18px;
+    font-weight: 500;
+    color: #C4C4C4;
+}
+.circ1{
+    background-color: #2387C04D;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+}
+.circ2{
+    background-color: #2387C0;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: relative;
+    right: 143px;
+    top: 10px;
+}
+
+.circ3{
+    background-color: #2387C04D;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+}
+.circ4{
+    background-color: #2387C0;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: relative;
+    right: 143px;
+    top: 10px;
+}
+
+.circ5{
+    background-color: #2387C04D;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+}
+.circ6{
+    background-color: #2387C0;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: relative;
+    right: 143px;
+    top: 10px;
+}
+
+.circ7{
+    background-color: #2387C04D;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+}
+.circ8{
+    background-color: #2387C0;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: relative;
+    right: 143px;
+    top: 10px;
+}
+.circles{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vec, .ion, .ant, .ant, .bx{
+    position: relative;
+    right: 255px;
+    top: 25px;
+   
+} 
+.ecob{
+    display: flex;
+    justify-content: space-evenly;
+     font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #242527;
+
+}
+.theme{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 18px;
+    color: #C4C4C4;
+    line-height: 100%;
+}
+.black{
+    width: 294px;
+    height: 312px;
+    background-color: #474747;
+    color: #FFFFFF;
+    position: relative;
+    top: 200px;
+    right: 160px;
+}
+.MSG{
+    display: flex;
+    justify-content: space-evenly;
+}
+.GR9, .mg1, .ima{
+    position: relative;
+    top: 100px;
+}
+.GR9{
+    position: relative;
+    top: 200px;
+}
+.ima{
+    margin-left: 100px;
+}
+ story{
+    position: relative;
+    top: 100px;
+    font-size: 46px;
+     display: flex;
+    justify-content: space-evenly;
+}
+
+.who{
+    font-size: 18px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+    color: #C4C4C4;
+}
+.story1{
+    margin-left: 100px;
+    position: relative;
+    top: 200px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #242527;
+}
+.mg2{
+    margin-left: 900px;
+}
+.NU{
+    font-size: 46px;
+    font-weight: 600;
+    color: #242527;
+    margin-left: 100px;
+    position: relative;
+    top: 70px;
+}
+.newscon{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+.jan{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 600;
+    color: #242527;
+    position: relative;
+    top: 100px;
+}
+.read{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 30px;
+    font-size: 18px;
+    color: #C4C4C4;
+    position: relative;
+    top: 200px;
+}
+span{
+    color: blue;
+}
+.proj{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #242527;
+    margin-left: 100px;
+    position: relative;
+    top: 300px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 500px;
+}
+.whiteb{
+    width: 253px;
+    height: 88px;
+    background-color: white;
+    position: relative;
+    left: 480px;
+    top: 400px;
+}
+.blu{
+    width: 57px;
+    height: 57px;
+    background-color: #0A72AD;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    left: 650px;
+    top: 330px;
+}
+.compl{
+    color:#C4C4C4;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sithcon{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 500px;
+}
+.un1{
+    position: relative;
+    right: 1050px;
+    top: 90px;
+}
+.jm{
+    width: 263px;
+    height: 171px;
+    background-color: white;
+    position: relative;
+    right: 1200px;
+    top: 320px;
+}
+ .what1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #FFFFFF;
+} 
+.blcon{
+    margin-left: 150px;
+    
+}
+.help{
+    font-size: 18px;
+    font-weight: 500;
+    color: #C4C4C4;
+    position: relative;
+    top: 30px;
+    
+}
+.what1,.help{
+    margin-left: 200px;
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    line-height: 50px;
+}
+ .what1{
+    position: relative;
+    top: 5px;
+ }
+.ni{
+    display: flex;
+    position: relative;
+    left: 420px;
+    top: 185px;
+    width: 42px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+} 
+.footer{
+    width: 100%;
+    height: 769px;
+    background-color: #474747;
+}
+.comor{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 500px;
+}
+.Gjet{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+    top: 400px;
+}
+@media all and (max-width: 500px) {
+
+  nav {
+     flex-direction:row;
+    text-align: center;
+    display: block;
+  }
+
+  .we, .ad, .and {
+    font-size: 16px;
+    display: block;
+  }
+
+  .our, .ex, .proj, .NU, .story1 {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+  }
+
+  .FG,
+  .marks,
+  .icr,
+  .icr2,
+  .make,
+  .circles,
+  .ecob,
+  .theme,
+  .newscon,
+  .jan,
+  .read,
+  .images,
+  .sithcon,
+  .comor {
+    flex-direction: row;
+    display: block;
+    /* align-items: center;
+    text-align: center; */
+  }
+
+  button {
+    width: 100px;
+    display: block;
+  }
+
+  .black {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+/* ===================== */
+/*  TABLET (769–1024px) */
+/* ===================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .we, .ad, .and {
+    font-size: 24px;
+    display: block;
+  }
+
+  .FG,
+  .marks,
+  .make,
+  .circles,
+  .images {
+    flex-wrap:nowrap;
+    justify-content: center;
+    display: block;
+  }
+}
+
+/* ===================== */
+/*  LARGE SCREENS */
+/* ===================== */
+@media (min-width: 1280px) {
+
+  .navcon,
+  .FG,
+  .marks,
+  .make,
+  .images,
+  .footer {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+  }
+}
